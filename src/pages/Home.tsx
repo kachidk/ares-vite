@@ -1,3 +1,5 @@
-export function Home() {
-  return <h1>Ares Vite</h1>;
-}
+import React from "react";
+
+export const Home: React.FC = () => {
+  return <h1>Ares Lite</h1>;
+};
